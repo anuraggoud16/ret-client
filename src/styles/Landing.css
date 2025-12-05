@@ -1,0 +1,36 @@
+.landing-container {
+    text-align: center;
+    padding: 80px 20px 30px 20px;
+    background-color: white;
+    height: 100vh;
+}
+
+.landing-container h1 {
+    font-size: 80px;
+    color: #5EABD6;
+}
+
+.landing-container p {
+    font-size: 30px;
+    color: #5EABD6;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-group button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #5EABD6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #407594;
+}

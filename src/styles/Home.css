@@ -1,0 +1,117 @@
+.home-container{
+
+padding: 40px;
+
+max-width: 700px;
+
+margin: auto;
+
+font-family: 'Segoe UI', sans-serif;
+
+background: linear-gradient(0deg, #a3d6f4, #ebeef0);
+
+border-radius: 15px;
+
+margin: 40px auto;
+
+box-shadow: 5px 10px 30px #467fa0;
+
+}
+
+h1 {
+
+text-align: center;
+
+color: #5EABD6;
+
+}
+
+.expense-form {
+
+display: grid;
+
+gap: 15px;
+
+margin-top: 20px;
+
+}
+
+.expense-form input {
+
+padding: 10px;
+
+border-radius: 8px;
+
+border: 1px solid #ccc;
+
+font-size: 16px;
+
+}
+
+.expense-form button {
+
+background-color: #5EABD6;
+
+color: white;
+
+padding: 12px;
+
+border: none;
+
+border-radius: 8px;
+
+}
+
+.expense-form button:hover {
+
+background-color: #467fa0;
+
+   cursor: pointer;
+
+}
+
+.expenses-list {
+
+margin-top: 30px;
+
+background: white;
+
+padding: 20px;
+
+border-radius: 8px;
+
+}
+
+.expenses-list h2 {
+
+color: #5EABD6;
+
+font-size: 30px;
+
+}
+
+.expenses-list ul {
+
+list-style: none;
+
+padding: 0;
+
+}
+
+.expenses-list li {
+
+margin: 12px 0;
+
+padding-bottom: 8px;
+
+border-bottom: 1px solid #ddd;
+
+}
+
+.note {
+
+color: #878787;
+
+font-size: 14px;
+
+}
